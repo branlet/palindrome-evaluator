@@ -25,7 +25,7 @@ function isItAPalindrome(input) {
     if (typeof input !== 'string') {
         return false;
     }
-    input = input.toLowerCase();
-    var reversedInput = input.split('').reverse().join('');
-    return reversedInput === input;
+    var cleanedInput = input.toLowerCase().replace(/[^a-zA-Z]/g, '');
+    var reversedInput = cleanedInput.split('').reverse().join('');
+    return reversedInput === cleanedInput;
 }
