@@ -101,6 +101,7 @@ body {
         margin-bottom: 10px;
         padding: 8px;
         font-size: 1.5rem;
+        align-items: center;
     }
 
     #textInput::placeholder {
@@ -112,4 +113,7 @@ body {
         text-align: center;
     }
 
+    .show {
+        width: 50%;
+    }
 }
