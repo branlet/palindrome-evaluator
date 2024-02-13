@@ -91,6 +91,10 @@ body {
 @media only screen and (max-width: 600px) {
     /* Adjust styles for smaller screens */
 
+    #container {
+        width: 80%
+    }
+
     #textInput {
         width: 100%;
         box-sizing: border-box;
@@ -101,6 +105,11 @@ body {
 
     #textInput::placeholder {
         text-align: center; 
+    }
+
+    #textForm {
+        display: block;
+        text-align: center;
     }
 
 }
